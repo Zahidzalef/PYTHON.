@@ -1,0 +1,8 @@
+# Bu kütüphane python'da yazılan dosyaları exe hale getirir.
+
+# Terminal kurulum
+# pip install pyinstaller yazın.
+
+pyinstaller --onefile --windowed --icon=icon.ico --add-data "icon.ico;." main.py
+
+Exe dosyanızı build klasöründe bulabilirsiniz.
